@@ -1,0 +1,92 @@
+@media(max-width:480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-bar {
+        display: none;
+    }
+
+    .footer-logo img {
+        width: 280px;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .footer-container p {
+        font-size: 10px;
+    }
+
+    footer {
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    footer li {
+        font-size: 10px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+
+    .big {
+        margin-top: 350px;
+    }
+
+    .login-container h2 {
+        font-size: 18px;
+    }
+
+    .login-container{
+        padding: 20px;
+        width:75%;
+    }
+
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 13px;
+        border-radius: 40px;
+        border: none;
+        box-sizing: border-box;
+        font-size: 15px;
+        background-color: #000;
+        margin-top: 4px;
+        color: white;
+    }
+    .login-form input[type="submit"] {
+        width: 30%;
+        background-color: #ffffff;
+        color: black;
+        border: none;
+        padding: 9px;
+        border-radius: 40px;
+        font-size: 13px;
+        font-weight: 400;
+        cursor: pointer;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .register-link a {
+        font-size: 12px;
+    
+    }
+    .register-link p {
+        font-size: 12px;
+    
+    }
+    .google-btn{
+        font-size: 13px;
+        width:80%;
+    }
+
+
+}

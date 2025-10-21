@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+  }
+  
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .background {
+    position: absolute;
+    inset: 0;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    padding: 24px 20px;
+    background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  }
+
+  .big{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23%;
+  }
+  
+  .login-container {
+    background-color: #121212;
+    padding: 40px;
+    border-radius: 30px;
+    width: 400px;
+    position: fixed;
+    animation: glow 1s infinite alternate;
+  }
+  .logo {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+}
+
+.logo img {
+    width: 50px; 
+    height: auto;
+}
+
+  
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.login-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 40px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #000;
+    margin-top: 4px;
+    color:white;
+}
+
+.login-form input[type="submit"] {
+    width: 60%;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 13px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #000;
+    color:#ffffff;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+.register-link p{
+    color:rgb(125, 125, 125);
+}
+.google-login {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: black;
+  width: 60%;
+  padding: 13px;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 0 auto; /* center-align */
+}
+
+.google-btn:hover {
+  background-color: #000;
+  color: #ffffff;
+}
+
+.google-icon {
+  width: 20px;
+  margin-right: 10px;
+}
+

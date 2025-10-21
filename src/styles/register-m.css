@@ -1,0 +1,44 @@
+@media(max-width:480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-bar {
+        display: none;
+    }
+
+    .footer-logo img {
+        width: 280px;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .footer-container p {
+        font-size: 10px;
+    }
+
+    footer {
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    footer li {
+        font-size: 10px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+    
+    .container{
+        width:76%;
+        margin-top: 130px;
+    }
+
+}
