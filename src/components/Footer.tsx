@@ -1,22 +1,4 @@
-// import React from "react";
 
-// const Footer: React.FC = () => {
-//   return (
-//     <footer>
-//       <div className="footer-logo">
-//         <img src="/assets/logobig.png" alt="Logo" />
-//       </div>
-//       <div className="footer-bottom">
-//         <p>
-//           Copyright © 2024 Corgnetrix Global Solutions Pvt Ltd.
-//           All Rights Reserved. Designed & Developed by Corgnetrix.
-//         </p>
-//       </div>
-//     </footer>
-//   );
-// };
-
-// export default Footer;
 
 import React from "react";
 import "../styles/footer.css";

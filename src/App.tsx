@@ -108,6 +108,9 @@ import WindowsReseller from "./pages/WindowsReseller";
 import ProfCloud from "./pages/ProfCloud";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import HorizontalScroll from "./components/HorizontalScroll";
+import WhatWeDo from "./components/WhatWeDo";
+
 
 
 const App: React.FC = () => {
@@ -138,9 +141,11 @@ const App: React.FC = () => {
               <Hero />
               <About />
               <Works />
+              <WhatWeDo /> 
               <VideoSection />
               <Testimonials />
               <Team />
+               <HorizontalScroll /> 
               <Footer />
             </>
           }
@@ -169,7 +174,7 @@ const App: React.FC = () => {
         <Route path="/cloud/profcloud" element={<ProfCloud />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        
+      
       </Routes>
     </Router>
   );

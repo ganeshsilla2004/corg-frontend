@@ -4,7 +4,9 @@ const Team: React.FC = () => {
   return (
     <div>
       <div className="us-heading">
-        <h1>Our Crew<span> !</span></h1>
+        <h1>
+          Our Crew<span> !</span>
+        </h1>
       </div>
       <div id="us-container">
         <div className="us">
@@ -19,7 +21,8 @@ const Team: React.FC = () => {
             <p>Ganesh Silla</p>
           </div>
         </div>
-        
+       
+    
       </div>
     </div>
   );

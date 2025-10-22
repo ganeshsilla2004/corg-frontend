@@ -728,3 +728,36 @@ margin-top: 15px;
   display: block;
   background-color: transparent;
 }
+
+.line {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.line h1 {
+  font-size: 50px;
+  font-weight: 200;
+  background-color: transparent;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.steps img {
+  width: 900px;
+  max-width: 90%;
+  border-radius: 20px;
+  transition: transform 0.4s ease;
+}
+
+.steps img:hover {
+  transform: scale(1.02);
+}
