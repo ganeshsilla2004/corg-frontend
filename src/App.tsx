@@ -110,6 +110,8 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import HorizontalScroll from "./components/HorizontalScroll";
 import WhatWeDo from "./components/WhatWeDo";
+import VideoSection1 from "./components/Vediosection1";
+import Logo from "./components/logo";
 
 
 
@@ -140,8 +142,11 @@ const App: React.FC = () => {
               <Navbar />
               <Hero />
               <About />
-              <Works />
-              <WhatWeDo /> 
+              <Logo />
+               
+               <VideoSection1 />
+                <Works />
+               <WhatWeDo/>
               <VideoSection />
               <Testimonials />
               <Team />
